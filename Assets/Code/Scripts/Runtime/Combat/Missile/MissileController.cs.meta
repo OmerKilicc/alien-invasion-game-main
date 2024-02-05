@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: d774ba1837ee96b4982385676dbdf8fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _targets: {fileID: 11400000, guid: e05c21dba642b0c4bafdc31377132721, type: 2}
+  - _missileDamage: {fileID: 11400000, guid: 77ef0443661032d459e92464ecb1991f, type: 2}
+  - _missileSpeed: {fileID: 11400000, guid: eded6027b295e2446aeeb25d3169527b, type: 2}
+  - _missileTurnSpeed: {fileID: 11400000, guid: 4e21fcab13e0e0f419080205f8cfab57,
+      type: 2}
+  - _targetingRadius: {fileID: 11400000, guid: 1d8e436a051f97a43883732f7ddd7dfa, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

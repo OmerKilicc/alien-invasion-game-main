@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 55545f76b050b534b95e01836663a633
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _loadUI: {fileID: 11400000, guid: 9b550f92f22a60245bd305a455c85c6a, type: 2}
+  - _loadMainMenu: {fileID: 11400000, guid: 524ffb002eb754b4e80efc5a1a532e5a, type: 2}
+  - _loadGame: {fileID: 11400000, guid: e36af3d88da265e4789f6754aa29eabf, type: 2}
+  - _loadComplete: {fileID: 11400000, guid: b574a2813420b834d9c0e6ce659da1ec, type: 2}
+  - _levelIndex: {fileID: 11400000, guid: 7bfc2cd7de258424cbd6202bfb3bd1d8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

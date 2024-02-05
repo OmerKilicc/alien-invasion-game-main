@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2789494966475279179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2789494966475279181}
+  - component: {fileID: 2789494966475279180}
+  - component: {fileID: 2789494967086722859}
+  m_Layer: 0
+  m_Name: Stage Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2789494966475279181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2789494966475279179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2789494966475279180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2789494966475279179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73952104bcaffe447ac0e30ed819a6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _resetStages: {fileID: 11400000, guid: 7eb80e6f0e05b194e835455e1e3b98ce, type: 2}
+  _setStage: {fileID: 11400000, guid: 4c2a9a0d16f0c544aaee44dcdb86dd1b, type: 2}
+  _startStage: {fileID: 11400000, guid: b85835fd291b7fb4887c89759c40bb04, type: 2}
+  _allStagesComplete: {fileID: 11400000, guid: 2eef1b7498542d04888c8a81666bf6be, type: 2}
+  _stage: {fileID: 11400000, guid: 51a5cb87ad55739449c0c4b257f8d905, type: 2}
+  _stageCount: {fileID: 11400000, guid: 267fd6e30e057bc46af6809f7c7b7eaa, type: 2}
+--- !u!114 &2789494967086722859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2789494966475279179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d84722bab28e6a40853292ebad39871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelFailMinPrize: 50
+  _levelFailMaxPrize: 50
+  _levelWonMinPrize: 400
+  _levelWonMaxPrize: 500
+  _coins: {fileID: 11400000, guid: fd31a047057ba224aa2063d817f3b337, type: 2}
+  _levelComplete: {fileID: 11400000, guid: 2eef1b7498542d04888c8a81666bf6be, type: 2}
+  _levelFail: {fileID: 11400000, guid: b43f2538f62786f46b1fbca1156cb076, type: 2}

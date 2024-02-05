@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b59d4fca2aa31439391488c1f8516d, type: 3}
+  m_Name: Laser Damage Upgrade
+  m_EditorClassIdentifier: 
+  Name: Upgrade Lasers
+  Image: {fileID: 21300000, guid: 62deec79f54b3974e8a8f9ce0b621f41, type: 3}
+  UpgradedAmount: 0
+  MaxUpgrades: 1000
+  LevelToUnlock: 0
+  BaseCost: 300
+  CostMultiplier: 1.75
+  BaseValue: {fileID: 11400000, guid: 140d3bdf6d543da45bad9a1de6abd8b4, type: 2}
+  Upgraded: {fileID: 11400000, guid: 6fcbfee719e91bf448b870cfca43d389, type: 2}
+  AddedAmount: 1

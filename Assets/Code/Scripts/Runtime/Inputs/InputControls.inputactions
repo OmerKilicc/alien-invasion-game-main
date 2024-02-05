@@ -1,0 +1,33 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "GameInputs",
+            "id": "198c3075-008a-4c33-a90d-5f6f4d35b979",
+            "actions": [
+                {
+                    "name": "TouchInput",
+                    "type": "Value",
+                    "id": "cb12a1fe-8eea-4ace-b340-c4b229b7d39a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ad3efeb1-997b-4618-a464-55875c884f54",
+                    "path": "<Touchscreen>/primaryTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

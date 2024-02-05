@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb2b050f7b22014c99bc64b291adcf2, type: 3}
+  m_Name: Blasters Upgrade
+  m_EditorClassIdentifier: 
+  Name: Upgrade Blasters
+  Image: {fileID: 21300000, guid: 8779b5a8073677a40a2f78745be43733, type: 3}
+  UpgradedAmount: 0
+  MaxUpgrades: 100
+  LevelToUnlock: 5
+  BaseCost: 1500
+  CostMultiplier: 1.75
+  BaseValue: {fileID: 11400000, guid: ce168f17c049b7d41bb6b58bbf599cd1, type: 2}
+  Upgraded: {fileID: 11400000, guid: 7b44cff8b36202e43a208e23497daafb, type: 2}
+  UpgradeMultiplier: 1.02
